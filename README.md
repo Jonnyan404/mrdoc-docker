@@ -61,7 +61,7 @@ args = --no-sandbox,--disable-gpu
 `docker run -d --name mrdoc -p 10086:10086 -v ~/mrdoc:/app/MrDoc jonnyan404/mrdoc`~~
 
 ## 三、自定义端口
-`docker run -d --name mrdoc -p xxx:port  -v ~/mrdoc:/app/MrDoc/config jonnyan404/mrdoc-alpine 0.0.0.0:port`
+`docker run -d --name mrdoc -p xxx:port  -v ~/mrdoc:/app/MrDoc/config jonnyan404/mrdoc 0.0.0.0:port`
 
 - xxx 为宿主机端口
 - port 为容器端口
