@@ -1,0 +1,11 @@
+image: jonnyan404/mrdoc:latest
+manifests:
+  - image: jonnyan404/mrdoc:latest-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: jonnyan404/mrdoc:latest-arm64
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
