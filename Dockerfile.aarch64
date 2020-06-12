@@ -4,6 +4,7 @@ ENV PYTHONUNBUFFERED=0 \
     TZ=Asia/Shanghai
 COPY files/ /app
 COPY qemu-aarch64-static /usr/bin/
+###
 WORKDIR /app
 RUN  set -x \
     && apk add --no-cache git tzdata zlib-dev freetype-dev jpeg-dev chromium mariadb-dev postgresql-dev \
