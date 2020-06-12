@@ -9,7 +9,7 @@
 
 ## 一、简单使用教程
 
-`docker run -d --name mrdoc -p 10086:10086 jonnyan404/mrdoc-alpine`
+`docker run -d --name mrdoc -p 10086:10086 jonnyan404/mrdoc`
 
 - 默认端口：10086
 - 默认用户：admin
@@ -47,7 +47,7 @@ args = --no-sandbox,--disable-gpu
 ```
 
 2.运行容器
-`docker run -d --name mrdoc -p 10086:10086 -v ~/mrdoc:/app/MrDoc/config jonnyan404/mrdoc-alpine`
+`docker run -d --name mrdoc -p 10086:10086 -v ~/mrdoc:/app/MrDoc/config jonnyan404/mrdoc`
 
 3.生成数据库文件
 
