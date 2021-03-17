@@ -3,9 +3,9 @@
 > 本项目用runserver运行,如需uwsgi/nginx方式运行, https://hub.docker.com/r/jonnyan404/mrdoc-nginx
 
 > 另外:已支持 `arm64` 平台,例如:树莓派/斐讯N1
+> 
 
-详细教程: [docker版本安装教程](https://www.mrdoc.fun)
-
+详细教程: <https://www.mrdoc.fun>
 ---
 
 ## 一、体验使用教程
